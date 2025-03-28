@@ -109,4 +109,40 @@ Wallet and Collection Addresses: Input your testnet wallet address and collectio
 Mining Process: Run your miner to acquire the correct hash, which takes between 30 and 60 seconds. Follow the steps in the Blueprint dialog, scan the generated QR code, and confirm the transaction in your Tonkeeper wallet.
 By following these steps, you will be able to mine an NFT on the TON testnet using your Tonkeeper wallet.
 
+final tip
+Because other developers may be carrying out the same process in an attempt to mine their own NFT, you may need to try the process a couple of times to succeed (as another user could mine the next NFT available right before you).
 
+Soon after initiating this process, you will have successfully mined your very first NFT on TON (it should appear in your Tonkeeper wallet).
+
+Welcome aboard, a true TON Developer! You did it. 🛳
+
+Genuine: NFT Mainnet Mining
+Hey! For those who wish to mine an NFT on TON Mainnet, these instructions should be followed:
+
+You have activated mainnet mode in your Tonkeeper (it should hold at least 0.1 TON).
+Input our mainnet wallet address from Tonkeeper into walletAddress variable in the ./scripts/mine.ts
+Input address of the NFT collection from the Mainnet into collectionAddress variable in the ./scripts/mine.ts
+Replace endpoint to the Mainnet:
+./scripts/mine.ts
+// specify endpoint for Mainnet
+const endpoint = "https://toncenter.com/api/v2/jsonRPC"
+
+
+Mine A Mainnet NFT Rocket
+Like we outlined in the testnet NFT rocket mining process, in order to successfully mine an NFT rocket on mainnet, it is necessary to follow these steps:
+
+Open the Tonkeeper wallet on your phone (remember, it should hold some TON tokens).
+Select scan mode in the wallet to scan the QR code.
+Run your miner to acquire the correct hash (this process takes between 30 and 60 seconds).
+Follow steps in Blueprint dialog.
+Scan the generated QR code from the miner.
+Confirm the transaction in your Tonkeeper wallet.
+final tip
+Because there may be other developers carrying out the same process in an attempt to mine their own NFT, you may have to try the process a couple times to be successful (as another user could mine the next NFT available right before you).
+
+After some time, you will have mined your NFT and become a TON Developer in TON Blockchain. The ritual is complete. Look at your NFT in Tonkeeper.
+
+Welcome aboard, a TON Developer! You did it. 🛳
+
+🧙 What's next?
+First, take a rest! You did a big task! You are a TON developer now. But it's only the beginning of the long way.
