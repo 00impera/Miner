@@ -80,4 +80,33 @@ export async function run(provider: NetworkProvider) {
 
 // specify endpoint for Mainnet
 const mainnetEndpoint = "https://toncenter.com/api/v2/jsonRPC";
+Steps to Run the Script
+Top Up Wallet Balance via the Token Faucet
+
+Acquire some TON testnet tokens using the testnet faucet available here.
+Run the Script
+
+bash
+npm start
+During this process, you will be prompted with the following questions:
+
+Which network do you want to use?
+
+Select testnet.
+Which wallet are you using?
+
+Select TON Connect compatible mobile wallet (example: Tonkeeper).
+Choose your wallet
+
+Select Tonkeeper.
+Connect Your Tonkeeper Wallet
+
+Scan the QR code displayed in the terminal with your Tonkeeper wallet.
+Confirm the transaction in Tonkeeper.
+Additional Notes
+Activate Testnet Mode: Ensure your Tonkeeper wallet is in Testnet mode.
+Wallet and Collection Addresses: Input your testnet wallet address and collection address into the walletAddress and collectionAddress variables in the ./scripts/mine.ts file.
+Mining Process: Run your miner to acquire the correct hash, which takes between 30 and 60 seconds. Follow the steps in the Blueprint dialog, scan the generated QR code, and confirm the transaction in your Tonkeeper wallet.
+By following these steps, you will be able to mine an NFT on the TON testnet using your Tonkeeper wallet.
+
 
