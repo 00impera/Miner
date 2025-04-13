@@ -146,3 +146,110 @@ Welcome aboard, a TON Developer! You did it. 🛳
 
 🧙 What's next?
 First, take a rest! You did a big task! You are a TON developer now. But it's only the beginning of the long way.
+
+# Detailed Instructions for Setting Up the Environment, Running the Script, and Verifying the Results
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+- Node.js (version 14 or higher)
+- npm (Node Package Manager)
+
+## Setting Up the Environment
+
+1. **Clone the Repository**
+
+   Open your terminal and run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/00impera/Miner.git
+   ```
+
+2. **Navigate to the Project Directory**
+
+   Change to the project directory:
+
+   ```bash
+   cd Miner
+   ```
+
+3. **Install Dependencies**
+
+   Install the required dependencies by running:
+
+   ```bash
+   npm install
+   ```
+
+4. **Top Up Your Wallet Balance**
+
+   Acquire some TON testnet tokens using the testnet faucet available [here](https://testnet.ton.org/faucet).
+
+## Running the Script
+
+1. **Start the Script**
+
+   Run the script by executing:
+
+   ```bash
+   npm start
+   ```
+
+2. **Follow the Prompts**
+
+   During this process, you will be prompted with the following questions:
+
+   - **Which network do you want to use?**
+
+     Select `testnet`.
+
+   - **Which wallet are you using?**
+
+     Select `TON Connect compatible mobile wallet` (example: Tonkeeper).
+
+   - **Choose your wallet**
+
+     Select `Tonkeeper`.
+
+3. **Connect Your Tonkeeper Wallet**
+
+   Scan the QR code displayed in the terminal with your Tonkeeper wallet.
+
+4. **Confirm the Transaction**
+
+   Confirm the transaction in your Tonkeeper wallet.
+
+## Verifying the Results
+
+After successfully running the script, you should see your mined NFT in your Tonkeeper wallet.
+
+## Troubleshooting Tips and Common Issues
+
+- **Ensure Testnet Mode is Activated**
+
+  Make sure your Tonkeeper wallet is in Testnet mode.
+
+- **Check Wallet and Collection Addresses**
+
+  Ensure you have input your testnet wallet address and collection address into the `walletAddress` and `collectionAddress` variables in the `./scripts/mine.ts` file.
+
+- **Mining Process Takes Time**
+
+  The mining process can take between 30 and 60 seconds. Be patient and follow the steps in the Blueprint dialog.
+
+- **Try Multiple Times**
+
+  If other developers are also mining NFTs, you may need to try the process a couple of times to succeed.
+
+By following these steps and tips, you will be able to mine an NFT on the TON testnet using your Tonkeeper wallet.
+
+## Additional Notes
+
+- **Mainnet Mining**
+
+  For those who wish to mine an NFT on TON Mainnet, follow the instructions provided in the `README.md` under the "Genuine: NFT Mainnet Mining" section.
+
+- **Next Steps**
+
+  After successfully mining your NFT, take a rest and celebrate your achievement as a TON Developer. This is just the beginning of your journey in the TON ecosystem.
