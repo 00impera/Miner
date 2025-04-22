@@ -11,7 +11,7 @@ const collectionAddress = Address.parse('UQDKb2nMq7FDjtN5NIJk2CNqJufnk1967LJlxlB
 
 async function mine(): Promise<Cell> {
     const endpoint = "https://testnet.toncentre.com/api/v2/jsonRPC";
-    const apiKey = process.env.TON_API_KEY = 'waka_5d975d55-7a36-4687-9dc3-c15576defa16';
+    const apiKey = process.env.TON_API_KEY = 'waka_a4e87d38-488d-4c76-b6eb-b892ba63c43e';
     
     // initialize ton library
     const client = new TonClient({ endpoint, apiKey });
