@@ -1,0 +1,32 @@
+{
+  "name": "ton-nft-miner",
+  "version": "1.0.0",
+  "description": "TON NFT Miner - A tool for mining NFTs on the TON blockchain",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx blueprint run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ton",
+    "blockchain",
+    "nft",
+    "mining",
+    "crypto"
+  ],
+  "author": "00impera",
+  "license": "MIT",
+  "dependencies": {
+    "@ton/ton": "^13.11.2",
+    "@ton/blueprint": "^0.17.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
